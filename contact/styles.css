@@ -1,0 +1,153 @@
+/* CSS for Contacts */
+
+body {
+	background-color: #9EBBC9;
+}
+
+header {
+	font-size: 70px;
+	color: #112027;
+}
+
+input {
+	font-size: 30px;
+	color: #112027;
+	margin: 10px;
+}
+
+form {
+  width: 80%;
+  margin: 8% auto;
+}
+
+#name {
+  position: relative;
+background:0 0 white;
+}
+
+#name:focus + .float-name {
+  top: -35px;
+  left: -380px;
+  opacity: 1;
+  font-size: .8em;
+  font-weight: bold;
+  color: #78281F;
+}
+.float-name {
+  position: relative;
+  top: 5px;
+  left: -380px;
+  transition: all 1s;
+  opacity: 0;
+  font-size: 30px;
+}
+#email {
+  position: relative;
+  background:0 0 white;
+}
+
+#email:focus + .float-email {
+  top: -35px;
+  left: -380px;
+  opacity: 1;
+  font-size: .8em;
+  font-weight: bold;
+  color: #78281F;
+}
+.float-email {
+  position: relative;
+  top: 5px;
+  left: -380px;
+  font-size: 30px;
+  transition: all 1s;
+  opacity: 0;
+}
+
+#phone {
+  position: relative;
+  background:0 0 white;
+}
+
+#phone:focus + .float-phone {
+  top: -35px;
+  left: -380px;
+  opacity: 1;
+  font-size: .8em;
+  font-weight: bold;
+  color: #78281F;
+}
+.float-phone {
+  position: relative;
+  top: 5px;
+  left: -380px;
+  font-size: 30px;
+  transition: all 1s;
+  opacity: 0;
+}
+
+#message {
+  position: relative;
+  width: 400px;
+  margin: 20px;
+}
+
+#message:focus + .float-message {
+  top: -110px;
+  left: -420px;
+  opacity: 1;
+  font-size: .8em;
+  font-weight: bold;
+  color: #78281F;
+}
+.float-message {
+  position: relative;
+  top: -50px;
+  left: -420px;
+  font-size: 30px;
+  transition: all 1s;
+  opacity: 0;
+}
+
+.send{
+  color:#fff;
+  border:solid 2px #fff;
+  border-radius:10%;
+  background-color: #D29A5A;
+  margin: 0px 45%;
+  display:inline-block;
+  width:70px;
+  height:50px;
+  text-align:center;
+  font-size:20px;
+  line-height:48px;
+  -webkit-transition:all .3s ease-in-out;
+  transition:all .3s ease-in-out;
+}
+.send:hover{
+  border:solid 2px #fff;
+  color:#F4D4A3;
+  background:#78281F;
+}
+
+.form input {
+  box-shadow:none!important;
+  border:0;
+  font-size:1.5em;
+  background:0 0 #D29A5A;
+  box-shadow:none!important;
+  resize:none;
+  width:100%;
+}
+
+.form textarea {
+  background:0 0 #D29A5A;
+  font-size:1.5em;
+}
+
+.form input {
+  background:0 0 #D29A5A;
+}
+
+  #contact {
+    position: relative;
+  }

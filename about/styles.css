@@ -1,0 +1,44 @@
+/* CSS file for About page*/
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;	
+	background-image: url("https://c2.staticflickr.com/6/5532/14482324184_421d56d4a5_b.jpg");
+	background-color: lime;
+	opacity: 0.7;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: left top;
+	color: #DDFC48;
+}
+
+h2 {
+	font-size: 70px;
+	width: 80%;	
+	margin: 1px auto;
+
+}
+
+p {
+	font-size: 20px;
+	width: 700px;
+	margin: 20px auto;
+}
+
+h3 {
+	font-size: 40px;
+}
+
+blockquote {
+	font-size: 30px;
+	width: 600px;
+}
+
+div {
+	background-color: #045300;
+	margin: 60px;
+	padding: 0 20px;
+}

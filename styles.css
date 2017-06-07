@@ -1,0 +1,40 @@
+
+html	{
+	height: 100%;
+}
+img {
+	border-radius: 50%;
+	width: 220px;
+	height: 220px;
+	border: 15px solid #88A7BC;
+	box-shadow: 5px 10px 10px 0;
+	margin: 5px;
+}
+
+header {
+	font-family: Roboto;
+	font-size: 70px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: -ms-repeating-linear-gradient(240deg, transparent, transparent 5px, 
+		transparent 8px, #B8C3C9 8px, #B8C3C9 15px, transparent 30px), 
+	-ms-repeating-linear-gradient(150deg, transparent, transparent 3px, #B8C3C9 3px, 
+		#B8C3C9 6px), #9DA6AA;
+  background: -webkit-repeating-linear-gradient(240deg, transparent, transparent 
+  	5px, transparent 8px, #B8C3C9 8px, #B8C3C9 15px, transparent 30px), 
+  -webkit-repeating-linear-gradient(150deg, transparent, transparent 3px, 
+  	#B8C3C9 3px, #B8C3C9 6px), #9DA6AA;
+}
+
+.links {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 40px;
+	margin: 0 5px 0 5px;
+	border: 1px solid;
+	border-radius: 10px;
+	padding: 0 5px 0 5px;
+}
