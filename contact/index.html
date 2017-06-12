@@ -4,8 +4,14 @@
 	<title>Contact</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
+<body onload='document.getElementById("quickName").focus();'>
 <header>Contact Me</header>
+<script language="javascript" src="../script.js"></script>
+<nav>
+<a class="links" href="../about/index.html">About</a>
+<a class="links" href="#">Contact</a>
+<a class="links" href="../index.html">Home</a>
+  </nav>
 <form action="mailto:webartisantim@gmail.com" method="post">
         
           <input id="name" type="text" placeholder="Name" required=""/>
@@ -26,5 +32,24 @@
 <input type="reset" value="Reset">-->
         </div>
       </form>
+      <form id="sideForm">
+        <label><b>Type your name below for a quick greeting!</b></label>
+        <input type="text" name="message" id="quickName">
+        
+      </form>
+      <div id="submitDisplay">
+<input type="submit" name="popup" id="test" onclick="greeting();">
+        <p><span id="newGreeting"></span></p>
+</div>
+      <!--<form id="sideForm">
+    
+    <input type="text" name="message" id="user_input">
+
+  </form>
+<div id="submitDisplay">
+ <input type="submit" onclick="showInput();"><br/>
+  <label>Your input: </label>
+  <p><span id='display'></span></p>
+</div>-->
 </body>
 </html>

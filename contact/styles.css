@@ -4,20 +4,33 @@ body {
 	background-color: #9EBBC9;
 }
 
+nav {
+  box-shadow: inset 0 0 5px 1px white;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.links {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 0 5px 0 5px;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 0 5px 0 5px;
+}
+
 header {
 	font-size: 70px;
 	color: #112027;
+  text-align: center;
 }
 
 input {
 	font-size: 30px;
 	color: #112027;
 	margin: 10px;
-}
-
-form {
-  width: 80%;
-  margin: 8% auto;
 }
 
 #name {
@@ -88,12 +101,14 @@ background:0 0 white;
 #message {
   position: relative;
   width: 400px;
-  margin: 20px;
+  margin: 10px;
+  font-size: 20px;
+
 }
 
 #message:focus + .float-message {
-  top: -110px;
-  left: -420px;
+  top: -136px;
+  left: -417px;
   opacity: 1;
   font-size: .8em;
   font-weight: bold;
@@ -134,7 +149,6 @@ background:0 0 white;
   border:0;
   font-size:1.5em;
   background:0 0 #D29A5A;
-  box-shadow:none!important;
   resize:none;
   width:100%;
 }
@@ -144,10 +158,24 @@ background:0 0 white;
   font-size:1.5em;
 }
 
-.form input {
-  background:0 0 #D29A5A;
-}
-
   #contact {
     position: relative;
   }
+
+  form {
+    border: 1px solid white;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+#sideForm {
+  position: fixed;
+  top: 200px;
+  right: 50px;
+}
+
+#submitDisplay {
+  position: fixed;
+  top: 300px;
+  right: 50px;
+}
