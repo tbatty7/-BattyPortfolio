@@ -171,11 +171,25 @@ background:0 0 white;
 #sideForm {
   position: fixed;
   top: 200px;
-  right: 50px;
+  left: 58%;
 }
 
-#submitDisplay {
+#sideForm p {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#submitQG {
   position: fixed;
-  top: 300px;
-  right: 50px;
+  top: 350px;
+  left: 72%;
+}
+
+#display {
+  position: fixed;
+  top: 400px;
+  left: 58%;
+  font-size: 20px;
+  font-family: sans-serif;
+  width: 400px;
 }
