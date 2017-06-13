@@ -1,4 +1,4 @@
-
+/* Home Page */
 html	{
 	height: 100%;
 }
@@ -8,7 +8,7 @@ img {
 	height: 220px;
 	border: 15px solid #88A7BC;
 	box-shadow: 5px 10px 10px 0;
-	margin: 5px;
+	margin: 5px 5px 20px 5px;
 }
 
 nav {
@@ -53,4 +53,74 @@ body {
 
 .images {
 	text-align: center;
+}
+
+.weblinks {
+  	display: inline-block;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 40px;
+	margin: 0 5px 0 5px;
+	border: 1px solid;
+	border-radius: 10px;
+	padding: 0 5px 0 5px;
+  background-color: #3059A0;
+  color: #ECBA85;
+  position: relative;
+  margin-bottom: 5vw;
+}
+.weblinks:visited {
+  color: #ab9353;
+  border: none;
+ outline: none; /*neither of these stop the blue border*/
+}
+.weblinks:hover {
+  background-color: #2A417C;
+  color: #97743a; 
+  margin-bottom: 5vw;
+  z-index: 1;
+}
+.weblinks:active {
+  background-color: #355e3b;
+  color: #ab9353;
+  text-decoration: none;
+}
+
+.weblinks:link i {
+  position: absolute;
+  left: 40%;
+  top: 60%;
+  opacity: 0;
+  transition: all 1s;
+  z-index: 0;
+}
+
+.weblinks:hover i {
+  postion: absolute;
+  left: 25%;
+  Top: 100%;
+  opacity: 1;
+  font-size: 2em;
+  z-index: 2;
+}
+
+
+.black {
+  color: black;
+}
+
+.blue {
+  color: #007AB9;
+}
+
+.white {
+  color: white;
+}
+
+.l-blue {
+  color: #42C0FB;
+}
+
+.grey {
+  color: #303C42;
 }
